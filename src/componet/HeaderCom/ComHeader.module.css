@@ -1,0 +1,76 @@
+
+
+
+.blockHeader{
+    display: flex;
+    height: 80px;
+}
+
+.findInput{
+    width: 55%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    margin: 28px 0 28px 30px;
+    
+}
+
+.searchBtn{
+    --Find-Btn: 4px;
+    color: #EDB11E;
+    background-color: #2C2C2C;
+    padding: 8px;
+    font-size: 20px;
+    margin: 28px 0;
+    border-top-right-radius: var(--Find-Btn);
+    border-bottom-right-radius: var(--Find-Btn);
+}
+
+.cartBtn{
+    padding: 10px;
+    margin: 14px 16px;
+    font-size: 40px;
+    color: #2C2C2C;
+}
+
+.whislistBtn{
+    font-size: 40px;
+    padding: 10px 0;
+    margin: 16px 4px 10px 16px;
+
+}
+
+.setWishtLisht{
+    display: flex;
+}
+
+.whislistTitle{
+    display: inline-block;
+    margin: 32px 8px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.accessModal{
+    display: flex;
+    margin: 16px 60px;
+}
+
+.regisBtn{
+    margin-right: 8px;
+    position: relative;
+}
+
+.loginBtn{
+    margin-left: 8px;
+}
+
+.regisBtn::after{
+    content: "";
+    position: absolute;
+    border: 1px solid;
+    height: 28px;
+    right: -10px;
+    
+}

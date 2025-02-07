@@ -1,0 +1,9 @@
+.Col4{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.widthCol4{
+    flex:1;
+}

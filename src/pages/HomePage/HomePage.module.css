@@ -1,0 +1,161 @@
+:root{
+    --primary-color: #EDB11E;
+    --secondary-color: #2C2C2C;
+}
+
+.hid{
+    display: none;
+}
+
+.BannerPic{
+    width: 97%;
+    margin: 0 10px;
+}
+
+.NewProTitle{
+    margin: 12px 20px;
+    font-size: 20px;
+}
+
+.NewProPic{
+    width: 90%;
+    margin: 0 20px;
+}
+
+.NewProductInfo{
+    display: flex;
+    margin: 14px 20px ;
+    border: 1px solid black;
+
+}
+
+.NewProPicShow{
+    width: 50%;
+    text-align: left;
+    padding: 0;
+    margin: 4px 0 24px;
+}
+
+.NewProDetail{
+    width: 50%;
+}
+
+.DetailTile{
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 12px;
+}
+
+.oldPrice{
+    text-decoration: line-through;
+    font-size: 24px;
+    color: rgb(129, 128, 128);
+}
+
+.NewPrice{
+    font-size: 24px;
+    color: red;
+}
+
+.oldPrice,
+.NewPrice{
+    margin: 12px;
+}
+
+.SelectType{
+    padding: 16px 24px;
+    margin: 12px 0;
+    font-size: 20px;
+    width: 550px;
+    text-align: center;
+}
+
+/* .btnNew{
+    display: flex;
+} */
+
+.SelectNumber{
+    padding: 12px;
+    margin: 30px 20px 0 0;
+    font-size: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.PreOrderBtn{
+    padding: 12px;
+    margin-left: 30px;
+    font-size: 20px;
+    width: 300px;
+    text-align: center;
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border-radius: 2px;
+    /* border: 1px solid ; */
+}
+
+.CountSale{
+    border: 1px solid black;
+    padding: 16px;
+    margin: 45px 0 0 95px;
+    width: 515px;
+}
+
+.SelectType,
+.SelectNumber,
+.CountSale{
+    background-color: #f5f5DC;
+}
+
+.topicTitil{
+    margin: 48px 0 12px;
+    font-size: 32px;
+}
+
+.viewmoreBtn{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 16px;
+    padding: 12px 80px;
+    margin: 12px 0;
+    font-weight: 600;
+}
+
+.categoryBanner{
+    display: inline-flex;
+    justify-content: center;
+    gap: 34px;
+    height: 100%;
+    
+   
+}
+
+
+.colPic3,
+.colPic2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    height: 100%; 
+}
+
+.colPic2{
+    gap: 24px; 
+}
+
+.colPic3{
+    gap: 15px;
+}
+
+.MiniBanner3{
+    width: 570px;
+    height: 295px;
+    object-fit: cover;
+}
+
+.MiniBanner2{
+    width: 836px;
+    height: 446px;
+    
+}

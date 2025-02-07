@@ -1,0 +1,63 @@
+
+.BlockInfo{
+    border: 1px solid gray;
+    margin: 16px ;
+}
+
+.sizePic{
+    width: 300px;
+    height: 300px;
+}
+
+.titleBox{
+    width: 280px;
+    line-height: 24px;
+    margin: 8px 0;
+    text-align: justify;
+    padding: 0 20px;
+}
+
+.RowPrice,
+.RowRating { 
+    display: flex; 
+    justify-content: space-between; /* Phân bố khoảng cách giữa các phần tử */ 
+    align-items: center; /* Căn giữa các phần tử theo chiều dọc */ 
+
+} 
+
+.ListPrice,
+.NumberRating { 
+    display: flex; 
+    justify-content: space-between; /* Đảm bảo khoảng cách giữa các nội dung bên trong */ 
+    width: 100%; /* Đảm bảo phần tử <p> chiếm toàn bộ chiều rộng của <div> */  
+}
+
+.ListPrice{
+    color: red;
+    font-size: 20px;
+    margin: 0 20px;
+    font-weight: 500; 
+}
+
+.faHeart{
+    margin: 4px 0;
+}
+
+.brand,
+.rating{
+    font-weight: 300;
+    display: flex;
+    margin: 4px 0 8px 20px
+}
+
+.rating{
+    color:yellow;
+    font-size: 20px;
+}
+
+
+.NumberRating{
+    margin-right: 50px;
+    font-weight: 500;
+}
+

@@ -1,0 +1,27 @@
+.contentText{
+    width: 50%;
+    text-align: justify;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.Picgundame{
+    height: 402px;
+    width: 750px;
+    object-fit: cover;
+}
+
+.contentTitle,
+.contentHeader{
+    margin: 24px 0 2px 0;
+}
+
+.listContent{
+    line-height: 30px;
+}
+
+.LastContent{
+    margin-bottom: 50px;
+}
+
+

@@ -1,0 +1,29 @@
+.header,
+.header1,
+.navbarLine{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.header{
+    font-weight: 500;
+}
+
+.header1{
+    text-transform: uppercase;
+    padding: 0 10px;
+    font-size: 24px;
+}
+
+.navbarLine{
+    font-size: 24px;
+}
+
+.navbar{
+    display: inline;
+}
+
+.filterheader{
+    font-size: 26px;
+    padding: 0 4px;
+}

@@ -1,0 +1,27 @@
+
+.navBar{
+    background-color: #2C2C2C;
+    display: flex;
+    
+    padding: 0;
+    margin-top: 8px;
+}
+
+.navList{
+    list-style-type: none;
+    display: inline;
+}
+
+.titleNav{
+    margin: 0 16px 14px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #F5F5DC;
+}
+
+.titleNav:hover{
+    color: #EDB11E;
+    cursor: pointer;
+}
+
+

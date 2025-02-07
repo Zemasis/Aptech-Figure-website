@@ -1,0 +1,67 @@
+.footer{
+    background-color: #2C2C2C;
+    color: white;
+
+}
+
+.footerTitle{
+    color: #EDB11E;
+}
+
+.Col{
+    margin-bottom: 60px;
+    margin-left: 50px;
+    display: flex;
+    width: 100%; 
+    justify-content: space-around;
+}
+
+.Col4{
+    flex: 1;
+    
+    margin: 0 40px;
+    text-align: left;
+}
+
+
+.footerInput{
+    padding: 8px 12px;
+    width: 70%;
+}
+
+.descTitle{
+    width: 80%;
+}
+
+.footerSignin{
+    padding: 8px 20px;
+    font-size: 16px;
+    margin: 12px 0;
+    background-color: #EDB11E;
+    color: black;
+    font-weight: 600;
+}
+
+
+.footerBrand{
+    font-size: 20px;
+    padding-right: 16px;
+}
+
+.CopyRight{
+    /* font-size: 20px; */
+    margin: 0;
+    padding: 30px 0 12px;
+}
+
+
+.footerLink:hover,
+.LinkFooter:hover{
+    cursor: pointer;
+    color: #EDB11E;
+}
+
+.LinkFooter{
+    text-decoration: none;
+    color: white;
+}
