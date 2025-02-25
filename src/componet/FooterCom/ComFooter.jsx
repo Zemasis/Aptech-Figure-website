@@ -26,7 +26,9 @@ function ComFooter (){
                 <div  className={style.Col4}>
                     <h3 className={style.footerTitle}>Need Helps</h3>
                     <h5 className={style.footerLink}>Track My Order</h5>
-                    <h5 className={style.footerLink}>Cancellation Policy</h5>
+                    <h5 className={style.footerLink}>
+                        <Link to='/CancellationPolicy' className={style.LinkFooter}>Cancellation Policy</Link>
+                    </h5>
                     <h5 className={style.footerLink}>
                         <Link to='/TermsService' className={style.LinkFooter}>Terms of Service</Link> 
                     </h5>

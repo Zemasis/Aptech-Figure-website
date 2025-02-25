@@ -1,6 +1,9 @@
+
 import {Routes,Route} from 'react-router-dom';
 import {useEffect} from 'react';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 // Import Page
 import HomePage from './pages/HomePage/index.jsx';
 import IntroductionPage from './pages/Introduction/index.jsx';
@@ -8,6 +11,7 @@ import ProductListPage from './pages/ProductList/index.jsx';
 import PrivacyPolicyPage from './pages/PrivacyPolicy/index.jsx';
 import ContractUs from './pages/ContractUs/index.jsx';
 import TermsServicePage from './pages/TermsService/index.jsx';
+import CancellationPolicy from './pages/CancellationPolicy/index.jsx';
 
 // Import Component
 import ComHeader from './componet/HeaderCom/ComHeader.jsx';
@@ -43,6 +47,7 @@ function App() {
         <Route path='/PrivacyPolicy' element ={<PrivacyPolicyPage/>}/>
         <Route path='/ContractUs' element={<ContractUs/>}/>
         <Route path='/TermsService' element={<TermsServicePage/>}/>
+        <Route path='/CancellationPolicy' element={<CancellationPolicy/>}/>
       </Routes>
       <ComFooter/>
 

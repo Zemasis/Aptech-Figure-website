@@ -20,6 +20,19 @@
 .contentTitle,
 .contentHeader{
     margin: 24px 0 2px 0;
+    font-size: 24px;
+}
+
+.listContent{
+    line-height: 30px;
+}
+
+.LastContent{
+    margin-bottom: 50px;
+}
+
+.DetailLine1{
+    margin-top: 10px;
 }
 
 

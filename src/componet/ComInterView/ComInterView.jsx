@@ -2,11 +2,12 @@ import style from './ComInterView.module.css';
 import ProductInfo from '../ComProductInfo/ComProductInfo';
 import ListProduct from '../../data/ListProduct';
 
-function ShowColum (){
-   
+function ShowColum ({start,end}){
+    const productsToShow = ListProduct.slice(start, end);
+
     return (
         <div className={style.Col4}>
-            {ListProduct.map((product)=>(
+            {productsToShow.map((product)=>(
                 <ProductInfo
                     key={product.index}
                     name= {product.name}

@@ -1,7 +1,7 @@
 .footer{
     background-color: #2C2C2C;
     color: white;
-
+    margin-top: 20px;
 }
 
 .footerTitle{
@@ -43,16 +43,30 @@
 }
 
 
+
+
+.footerTitle{
+    font-size: 20px;
+    padding: 16px 0 8px;
+    font-weight: 650;
+}
+
+.footerLink{
+    font-size: 14px;
+    margin: 12px 0 20px;
+}
+
 .footerBrand{
     font-size: 20px;
     padding-right: 16px;
 }
 
 .CopyRight{
-    /* font-size: 20px; */
+    font-size: 12px;
     margin: 0;
     padding: 30px 0 12px;
 }
+
 
 
 .footerLink:hover,

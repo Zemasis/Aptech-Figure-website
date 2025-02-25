@@ -8,7 +8,7 @@
 
 .findInput{
     width: 55%;
-    height: 40%;
+    height: 45%;
     display: flex;
     align-items: center;
     padding: 0 12px;
@@ -54,23 +54,10 @@
 
 .accessModal{
     display: flex;
-    margin: 16px 60px;
+    margin: 32px 60px;
 }
 
-.regisBtn{
-    margin-right: 8px;
-    position: relative;
-}
 
-.loginBtn{
-    margin-left: 8px;
-}
 
-.regisBtn::after{
-    content: "";
-    position: absolute;
-    border: 1px solid;
-    height: 28px;
-    right: -10px;
-    
-}
+
+

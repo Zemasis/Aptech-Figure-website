@@ -1,18 +1,16 @@
 .FooterNavbar{
-    position: absolute;
+    /* position: absolute;
     margin-left: 200px;
-    top: 210px;
-
+    top: 210px; */
+    width: 180px;
+    margin: 12px 0 0 100px;
 }
 
 .NavBlock{
     border: solid 1px black;
 }
 
-.FooterNavbarTitle{
-    font-weight: 400;
-    margin: 16px 0 16px 0;  
-}
+
 
 .NavCol{
     padding: 0;
@@ -24,7 +22,7 @@
     border-bottom: 2px solid black;
     margin: 8px ;
     padding: 0 0 8px 0;
-    display: flex;
+  
 }
 
 .NavbarDetail{
@@ -36,5 +34,13 @@
     word-wrap: break-word;
     align-items: flex-start; /* Đặt các phần tử con căn về trên */
     text-align: left; /* Đảm bảo văn bản căn trái */
-    
 }
+
+
+.checkboxDetail{
+    vertical-align: middle;
+    margin-right: 5px;
+    margin-top: 6px;
+    color: #000;
+}
+

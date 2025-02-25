@@ -7,7 +7,7 @@ import ContractForm from '../../componet/ComContract/ComContractForm';
 function ContractUs (){
     return(
         <main>
-            <h1>Contract Us</h1>
+            <h1 className={style.titlePage}>Contract Us</h1>
             <FooterNavbar/>
             <section className={style.contentText}>
                 <p>Hello and thank you for visiting our website!</p>

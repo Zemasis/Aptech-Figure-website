@@ -7,7 +7,7 @@ import FooterNavbar from '../../componet/ComNavbarFooter/ComNavbarFooter';
 function IntroductionPage(){
     return(
         <main>
-            <h1>About Aptech Figure</h1>
+            <h2 className={style.pageTitle}>About Aptech Figure</h2>
             <FooterNavbar/>
             <section className={style.contentText}>
                 <p >Aptech Figure is a small organization of 2 people who love Japanese culture, especially character models in anime and manga. We want to provide the best model products that suit each person's requirements. Coming to Aptech Figure, you can find models of the characters you've always wanted to display in your collection</p>

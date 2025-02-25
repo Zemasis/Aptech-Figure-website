@@ -1,0 +1,113 @@
+:root{
+    --primary-color: #EDB11E;
+    --secondary-color: #2C2C2C;
+}
+
+.loginBtn{
+    margin-left: 8px;
+}
+
+.loginBtn:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.formlabel{
+    font-weight: 500;
+}
+
+.viewmoreBtn{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    font-size: 16px;
+    padding: 6px 40px;
+    margin: 12px 0;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.Ortext{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+.Ortext:before{
+    content: "";
+    position: absolute;
+    border: 1px solid;
+    width: 40%;
+    left: 5%;
+}
+
+.Ortext::after{
+    content: "";
+    position: absolute;
+    border: 1px solid;
+    width: 40%;
+    right: 5%;
+}
+
+.socialBtn{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;         
+}
+
+.facebookBtn,
+.googleBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    padding: 8px 40px;
+    font-weight: 600;
+    border-radius: 2px;
+    width: 48%;
+}
+
+.facebookBtn{
+    background-color: #253864;
+}
+
+.googleBtn{
+    background-color: #DB4437;
+}
+
+.iconBtn{
+    margin-right: 8px;
+}
+
+.LoginText,
+.Regisswap{
+    margin-top: 20px;
+    color: gray;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.Regisswap{
+    margin: 18px 0 0 4px;
+    font-weight: 500;
+    color: #0d6efd;
+}
+
+.swapLogin{
+    display: flex;
+    justify-content: center;
+}
+
+/* .viewmoreBtn:after{
+    content: "";
+    position: absolute;
+    border: 1px solid;
+    width: 90%;
+    bottom: 15px;
+    right: 0;
+    color: #000;
+} */
+

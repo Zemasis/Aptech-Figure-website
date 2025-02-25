@@ -5,7 +5,7 @@ import FooterNavbar from '../../componet/ComNavbarFooter/ComNavbarFooter';
 function PrivacyPolicyPage(){
     return(
         <main>
-            <h1>Privacy Policy</h1>
+            <h1 className={style.titlePage}>Privacy Policy</h1>
             <FooterNavbar/>
             <section className={style.contentText}>
                 <p >Last updated: September 29, 2024</p>

@@ -1,8 +1,12 @@
 import LogoFigure from '../../assets/images/Aptechfigure.PNG';
 import style from './ComHeader.module.css';
+
 import { FontAwesomeIcon }  from '@fortawesome/react-fontawesome';
 import {faMagnifyingGlass,faBagShopping} from '@fortawesome/free-solid-svg-icons';
 import {faHeart} from '@fortawesome/free-regular-svg-icons';
+//import component
+import LoginForm from '../../pages/LoginForm';
+import RegisterForm from '../../pages/RegisterForm';
 
 
 function ComHeader (){
@@ -17,10 +21,10 @@ function ComHeader (){
                 <h3 className={style.whislistTitle}>Wishlist</h3>
             </div>
             <div className={style.accessModal}>
-                <h3 className={style.regisBtn}>Register</h3> 
-                <h3 className={style.loginBtn}>Login</h3>
+                <RegisterForm/>
+                
+                <LoginForm/>
             </div>
-
         </header>
     )
 }

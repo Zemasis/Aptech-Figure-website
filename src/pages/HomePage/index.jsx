@@ -54,7 +54,7 @@ function HomePage (){
             <section>
                 <h3 className={style.topicTitil}>New Arrivals</h3>
                 <img src={KotoPic} alt="Ảnh Koto" className={style.BannerPic}/>
-                <ShowColum/>
+                <ShowColum start={0} end={4}/>
                 <Button className={style.viewmoreBtn}>View More</Button>
             </section>
 
